@@ -1,0 +1,50 @@
+body {
+    background: rgb(194, 184, 184);
+}
+
+.container {
+    display: block;
+    margin: 50px;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    
+}
+
+.prompt-space {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+}
+
+.submit-button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: plum;
+    color: white;
+    border: 1px solid palevioletred;
+    border-radius: 6px;
+    margin-left: 12px;
+}
+
+.poem-content {
+    background-color: white;
+    padding: 30px;
+    border-left: 5px solid palevioletred;
+    font-size: 18px;
+    line-height: 2;
+    border-radius: 6px;
+    max-width: 83%;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+

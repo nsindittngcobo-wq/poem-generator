@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>AI Generated Poem</title>
 </head>
@@ -11,24 +12,16 @@
 <h1>
     AI Generated Poem 📖
 </h1>
-<form>
+<form id="poem-generator">
     <input class="prompt-space" type="text" placeholder="Enter your topic..."  autofocus required>
     <input type="submit" class="submit-button">
 </form>
-<div class="poem-content">
-A little sunbeam, warm and bright,
- <br>
-Makes my heart feel happy and light.
-</br>
-A friendly smile, a gentle touch,
-<br>
-Means I don't need to ask so much.   
-</div>
-    <footer>
+<div class="poem-content" id="poem-content"></div> 
+ <footer>
         This AI project was coded by <a href="
         https://github.com/nsindittngcobo-wq" target="_blank">Nsindiso N.</a> and is open sourced on <a href="https://github.com/nsindittngcobo-wq/poem-generator" target="_blank">GitHub</a>, and is stored on  <a href="https://poem-generator.nsindittngcobo.workers.dev/" target="_blank">Cloudfare.</a>
     </footer>
-</div>
+
     <script src="script.js"></script>
 </body>
 </html>
